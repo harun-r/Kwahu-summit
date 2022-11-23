@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 //Arrow img
-import ArrowDown from '../../assets/images/green-arrow-down.png'
 //Logo
 import Logo from '../../assets/images/logo.png'
 //Social img
@@ -20,7 +19,7 @@ import FlagSpanish from '../../assets/images/flags/spain.png';
 const Header = () => {
     return (
         <div className="main-header">
-            <div className="container">
+            <div className="container-fluid header-base">
                 <div className="header-bottom">
                     <div className="header-left">
                         <div className="logo">
@@ -94,9 +93,9 @@ const Header = () => {
                     <div className="header-date">
                         <p>January 26th - 28th 2023</p>
                     </div>
-                    <div className="header-top-right">
+                    <div className="header-top-right d-flex align-items-center">
                         <div className="language-dropdown dropdown">
-                            <button className="btn dropdown-toggle"
+                            <button className="btn text-white btn-flat dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false">

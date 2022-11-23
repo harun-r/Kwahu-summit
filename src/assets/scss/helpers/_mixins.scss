@@ -160,7 +160,7 @@ Mixins styles here... */
 
 // Round Ball
 @mixin roundball {
-  @include border-radius(50%);
+  border-radius: 50%;
 }
 
 // Text Ellipsis

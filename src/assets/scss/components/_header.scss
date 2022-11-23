@@ -1,0 +1,27 @@
+.main-header{
+  @include fixed(0,0);
+  width: 100%;
+  padding: 15px 30px;
+  color: $white;
+  .header-base{
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 767px) {
+      flex-direction: column-reverse;
+    }
+  }
+//  header-top
+  .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+//  header-top-right
+  .header-top-right{
+    .social-profiles{
+      a{
+        margin-left: 15px;
+      }
+    }
+  }
+}
