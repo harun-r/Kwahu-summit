@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Router init">
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Page Header">
+      <change afterPath="$PROJECT_DIR$/src/components/hero-section/HeroSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669128577461</updated>
       <workItem from="1669128583923" duration="4997000" />
-      <workItem from="1669206846404" duration="4374000" />
+      <workItem from="1669206846404" duration="5122000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669208032613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page Header">
+      <created>1669211300844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669211300844</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Router init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Router init" />
+    <MESSAGE value="Page Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Header" />
   </component>
 </project>
