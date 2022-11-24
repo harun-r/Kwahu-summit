@@ -1,11 +1,62 @@
 .hero-section{
   width: 100%;
   height: 100vh;
+  position: relative;
   .bg-img{
     @include size(100%,100%);
     img{
       @include size(100%,100%);
       object-fit: cover;
+    }
+  }
+  .hero-content{
+    @include absolute(0,0);
+    @include size(100%,100%);
+    padding-bottom: 110px;
+    display: flex;
+    align-items: flex-end;
+    color: $white;
+
+    h3{
+      font-size: 54px;
+      font-weight: 600;
+      font-family: $Oswald;
+    }
+    .desc{
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .btn-register{
+      @include size(207px,63px);
+      border-radius: 0;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+    .rotate-text{
+      position: absolute;
+      right: 0;
+      bottom: 166px;
+      transform-origin: center;
+      transform: translateY(-100%) rotate(90deg);
+      p{
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        position: relative;
+        margin: 0;
+        &:after{
+          @include pseudo();
+          height: 110px;
+          width: 2px;
+          background-color: #ffffff;
+          position: absolute;
+          right: -65px;
+          bottom: -40px;
+          transform: rotate(90deg);
+        }
+      }
     }
   }
 }

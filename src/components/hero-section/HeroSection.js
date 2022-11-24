@@ -2,6 +2,7 @@ import React from 'react';
 //bg image
 import bgImg from '../../assets/images/hero-bg/bg-1.png'
 const HeroSection = () => {
+
     return (
         <div className="hero-section">
             <div className="bg-img">
@@ -13,7 +14,7 @@ const HeroSection = () => {
                         <h3 className="titleCap">AfCTFA:</h3>
                         <h3 className="title">From ambition to action </h3>
                         <p className="desc">Energy security For industrialisation</p>
-                        <button className="btn">Register</button>
+                        <button className="btn btn-register btn-outline-light">Register</button>
                         <div className="rotate-text">
                             <p>Who is attending ?</p>
                         </div>
