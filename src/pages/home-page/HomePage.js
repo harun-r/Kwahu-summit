@@ -4,8 +4,10 @@ import HeroSection from "../../components/hero-section/HeroSection";
 const HomePage = () => {
     return (
         <div className="home-page">
-            <Header />
-            <HeroSection/>
+            <div className="main-head">
+                <Header />
+                <HeroSection/>
+            </div>
         </div>
     );
 };

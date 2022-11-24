@@ -26,7 +26,7 @@ const Header = () => {
                             <Link to="/"><img src={Logo} alt="logo"/></Link>
                         </div>
                         <div className="register-button">
-                            <button className="btn">Register</button>
+                            <button className="btn btn-outline-light">Register</button>
                         </div>
                     </div>
                     <div className="header-right">

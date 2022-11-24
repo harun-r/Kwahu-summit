@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Home Hero">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_dropdowns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_froms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_hero-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/layout/main.scss" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Header Design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/helpers/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/helpers/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/helpers/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/hero-bg/bg-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/hero-bg/bg-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_dropdowns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Github/harun-r.github.io",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/harun-r.github.io&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669128577461</updated>
       <workItem from="1669128583923" duration="4997000" />
-      <workItem from="1669206846404" duration="9481000" />
+      <workItem from="1669206846404" duration="9794000" />
+      <workItem from="1669294629453" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -102,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669212197816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Header Design">
+      <created>1669216563624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669216563624</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +125,7 @@
     <MESSAGE value="Router init" />
     <MESSAGE value="Page Header" />
     <MESSAGE value="Home Hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Hero" />
+    <MESSAGE value="Header Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header Design" />
   </component>
 </project>
