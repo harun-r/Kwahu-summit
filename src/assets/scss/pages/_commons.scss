@@ -18,3 +18,25 @@
     font-family: $Oswald;
   }
 }
+
+//video-box
+.video-box{
+  display: block;
+  width: 100%;
+  position: relative;
+  img{
+    @include size(100%,100%);
+    object-fit: cover;
+  }
+  .play-icon{
+    @include size(100px,100px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    img{
+      @include size(100%,100%);
+      object-fit: cover;
+    }
+  }
+}
