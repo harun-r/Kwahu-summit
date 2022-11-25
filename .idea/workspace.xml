@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="video section">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_card-icon-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-icon-text/CardIconText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/who-attending/whoAttending.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="who attend card">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_card-img-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-img-text/CardImgText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/invite-section/InviteSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <updated>1669128577461</updated>
       <workItem from="1669128583923" duration="4997000" />
       <workItem from="1669206846404" duration="9794000" />
-      <workItem from="1669294629453" duration="12235000" />
+      <workItem from="1669294629453" duration="14794000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669351560995</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="who attend card">
+      <created>1669353829738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669353829738</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +179,7 @@
     <MESSAGE value="Header design update" />
     <MESSAGE value="about section" />
     <MESSAGE value="video section" />
-    <option name="LAST_COMMIT_MESSAGE" value="video section" />
+    <MESSAGE value="who attend card" />
+    <option name="LAST_COMMIT_MESSAGE" value="who attend card" />
   </component>
 </project>
