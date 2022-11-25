@@ -40,3 +40,22 @@
     }
   }
 }
+
+//who-attending-section
+.who-attending-section{
+  .section-header{
+    text-align: left;
+    margin-top: 40px;
+  }
+  .content{
+    p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #59566F;
+    }
+  }
+  .card-icon-text{
+    min-height: 158px;
+  }
+}

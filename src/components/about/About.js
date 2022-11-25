@@ -11,8 +11,8 @@ const About = () => {
                 title="About the Summit"
             />
             <div className="container">
-                <div className="row">
-                    <div className="col-md-10 offset-md-1">
+                <div className="row justify-content-center">
+                    <div className="col-lg-10 col-sm-10">
                         <div className="content">
                             <p>Africa Prosperity Network (APN) , in partnership with the AfCFTA Secretariat and the Presidency of Ghana, (the host nation of AfCFTA Secretariat), presents the Kwahu Summit on Africa’s Prosperity. This is the summit where leading Africans in Politics and Business will convene to Contribute, Connect and Commit to restructuring the African reality, and reconstructing the African narrative.</p>
                             <p>That project of ownership and partnerships among African nations, citizens and businesses is before us today like never before. On 1 January 2021, Africa signalled her resolve to forge ahead together with greater purpose through the coming into force of the African Continental Free Trade Area (AfCFTA) – a historic pact among AU member-states to create a single continental market for goods and services, as well as a customs union</p>
