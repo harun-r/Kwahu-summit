@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Header Design">
+      <change afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hero-section/SliderItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section-header/SectionHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/hero-bg/bg-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/hero-bg/bg-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_hero-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_hero-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero-section/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero-section/HeroSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,7 +59,7 @@
       <updated>1669128577461</updated>
       <workItem from="1669128583923" duration="4997000" />
       <workItem from="1669206846404" duration="9794000" />
-      <workItem from="1669294629453" duration="5556000" />
+      <workItem from="1669294629453" duration="8147000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669298311170</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Header Design">
+      <created>1669300273758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300273758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
