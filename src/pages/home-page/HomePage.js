@@ -5,6 +5,7 @@ import About from "../../components/about/About";
 import VideoSection from "../../components/video/video-section";
 import WhoAttending from "../../components/who-attending/whoAttending";
 import InviteSection from "../../components/invite-section/InviteSection";
+import NotableSection from "../../components/notable-section/notable-section";
 const HomePage = () => {
     return (
         <div className="home-page">
@@ -15,6 +16,7 @@ const HomePage = () => {
                 <VideoSection/>
                 <WhoAttending/>
                 <InviteSection/>
+                <NotableSection/>
             </div>
         </div>
     );
