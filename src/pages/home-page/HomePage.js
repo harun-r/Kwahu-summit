@@ -6,6 +6,7 @@ import VideoSection from "../../components/video/video-section";
 import WhoAttending from "../../components/who-attending/whoAttending";
 import InviteSection from "../../components/invite-section/InviteSection";
 import NotableSection from "../../components/notable-section/notable-section";
+import KeyTopics from "../../components/key-topics/KeyTopics";
 const HomePage = () => {
     return (
         <div className="home-page">
@@ -17,6 +18,7 @@ const HomePage = () => {
                 <WhoAttending/>
                 <InviteSection/>
                 <NotableSection/>
+                <KeyTopics/>
             </div>
         </div>
     );
