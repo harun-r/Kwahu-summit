@@ -7,6 +7,7 @@ import WhoAttending from "../../components/who-attending/whoAttending";
 import InviteSection from "../../components/invite-section/InviteSection";
 import NotableSection from "../../components/notable-section/notable-section";
 import KeyTopics from "../../components/key-topics/KeyTopics";
+import NewSection from "../../components/news-section/NewSection";
 const HomePage = () => {
     return (
         <div className="home-page">
@@ -19,6 +20,7 @@ const HomePage = () => {
                 <InviteSection/>
                 <NotableSection/>
                 <KeyTopics/>
+                <NewSection/>
             </div>
         </div>
     );
