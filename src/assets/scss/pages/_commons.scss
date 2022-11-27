@@ -111,6 +111,18 @@
 .footer-section{
   background-color: $blue;
   padding-top: 50px !important;
+  position: relative;
+  &:after{
+    @include pseudo();
+    background-image: url("/assets/images/footer-shape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include size(614px,467px);
+    position: absolute;
+    right: 0;
+    top: -464px;
+    z-index: -1;
+  }
   .footer-top{
     display: flex;
     align-items: flex-end;
