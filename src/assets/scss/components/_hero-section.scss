@@ -70,3 +70,52 @@
   height: 100vh;
   position: relative;
 }
+
+
+//hero-section-sm
+.hero-section-sm{
+  @include size(100%,600px);
+  position: relative;
+  img{
+    @include size(100%,100%);
+    object-fit: cover;
+  }
+  .hero-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 130px;
+    .content-inner{
+      width: 100%;
+
+      .content{
+        h3{
+          font-size: 64px;
+          font-weight: 600;
+          color: $white;
+          margin-bottom: 15px;
+        }
+        p{
+          font-size: 24px;
+          color: $white;
+          font-weight: 600;
+          position: relative;
+          display: inline-block;
+          &:after{
+            @include pseudo();
+            @include size(700px,2px);
+            background-color: $white;
+            position: absolute;
+            right: -710px;
+            top: 16px;
+          }
+        }
+      }
+    }
+  }
+}
