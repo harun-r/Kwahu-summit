@@ -10,6 +10,7 @@ import KeyTopics from "../../components/key-topics/KeyTopics";
 import NewSection from "../../components/news-section/NewSection";
 import FAQSection from "../../components/faq-section/FAQSection";
 import SponsorsSection from "../../components/sponsors-section/SponsorsSection";
+import Footer from "../../components/footer/Footer";
 const HomePage = () => {
     return (
         <div className="home-page">
@@ -25,6 +26,7 @@ const HomePage = () => {
                 <NewSection/>
                 <FAQSection/>
                 <SponsorsSection/>
+                <Footer/>
             </div>
         </div>
     );
