@@ -21,4 +21,20 @@
       color: $white;
     }
   }
+//  view-all-news
+  &.view-all-news{
+    padding: 0;
+    color: $green;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: $openSans;
+    display: flex;
+    align-items: center;
+
+    .arrow-right{
+      width: 8px;
+      margin-left: 10px;
+    }
+  }
 }

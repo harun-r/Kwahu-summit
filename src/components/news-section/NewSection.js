@@ -4,6 +4,7 @@ import CardNews from "../card-news/CardNews";
 import img1 from '../../assets/images/news/news-1.png';
 import img2 from '../../assets/images/news/news-2.png';
 import img3 from '../../assets/images/news/news-3.png';
+import ArrowRight from '../../assets/images/green-arrow-right.png'
 const NewsSection = () => {
     return (
         <div className="news-section p-4">
@@ -31,6 +32,16 @@ const NewsSection = () => {
                                 title="Benefits of African Economic Integration"
                                 date="1 November 2022 | 22:48"
                             />
+                        </div>
+                    </div>
+                    <div className="row justify-content-end">
+                        <div className="col-md-4">
+                            <div className="view-more-news">
+                                <button className="btn view-all-news btn-link">
+                                    View all news
+                                    <img className="arrow-right" src={ArrowRight} alt="arrow right"/>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

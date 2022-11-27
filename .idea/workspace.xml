@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Card">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_card-news.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-news/CardNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news-section/NewSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_card-news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_card-news.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news-section/NewSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news-section/NewSection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,8 @@
       <workItem from="1669128583923" duration="4997000" />
       <workItem from="1669206846404" duration="9794000" />
       <workItem from="1669294629453" duration="15221000" />
-      <workItem from="1669472581434" duration="4219000" />
+      <workItem from="1669472581434" duration="4977000" />
+      <workItem from="1669549608841" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669475523464</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Card">
+      <created>1669476865210</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669476865210</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
