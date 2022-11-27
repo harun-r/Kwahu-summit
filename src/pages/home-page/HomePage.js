@@ -8,6 +8,7 @@ import InviteSection from "../../components/invite-section/InviteSection";
 import NotableSection from "../../components/notable-section/notable-section";
 import KeyTopics from "../../components/key-topics/KeyTopics";
 import NewSection from "../../components/news-section/NewSection";
+import FAQSection from "../../components/faq-section/FAQSection";
 const HomePage = () => {
     return (
         <div className="home-page">
@@ -21,6 +22,7 @@ const HomePage = () => {
                 <NotableSection/>
                 <KeyTopics/>
                 <NewSection/>
+                <FAQSection/>
             </div>
         </div>
     );
