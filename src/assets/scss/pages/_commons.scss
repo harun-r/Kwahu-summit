@@ -69,3 +69,40 @@
   background-size: contain;
   background-position: center;
 }
+
+//sponsor-section
+.sponsor-section{
+  padding-bottom: 52px;
+  .sponsor-item{
+    margin-bottom: 30px;
+    text-align: center;
+    p{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #9CA69C;
+      margin-bottom: 30px;
+    }
+    .sponsor-icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .sponsor-icon{
+        .icon-big{
+          height: 168px;
+          margin: 0 10px;
+        }
+        .icon-md{
+          height: 152px;
+          margin: 0 10px;
+        }
+        .icon-sm{
+          height: 70px;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
