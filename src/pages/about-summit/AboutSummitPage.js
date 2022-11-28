@@ -5,6 +5,8 @@ import headerBG from '../../assets/images/header-bg/about-summit-bg.png'
 import PageShape from "../../components/page-shape/PageShape";
 import About from "../../components/about/About";
 import VideoSection from "../../components/video/video-section";
+import ObjectivesSection from "../../components/objectives-section/ObjectivesSection";
+import Footer from "../../components/footer/Footer";
 const AboutSummitPage = () => {
     return (
         <div className="about-summit-page">
@@ -17,6 +19,8 @@ const AboutSummitPage = () => {
             />
             <About hasDot={false}/>
             <VideoSection/>
+            <ObjectivesSection/>
+            <Footer/>
         </div>
     );
 };
