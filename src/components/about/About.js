@@ -1,11 +1,14 @@
 import React from 'react';
 import SectionHeader from "../section-header/SectionHeader";
-import aboutShape from '../../assets/images/dot-shapes/about-dot.png'
+import SectionDot from "../section-dot/SectionDot";
 
-const About = () => {
+const About = (props) => {
     return (
         <div className="about-section section-space-y">
-            <span className="shape-right"><img src={aboutShape} alt="about"/></span>
+            {props.hasDot
+                ? <SectionDot/>
+                : null
+            }
             <SectionHeader
                 hint="BACKGROUND TO SUMMIT"
                 title="About the Summit"

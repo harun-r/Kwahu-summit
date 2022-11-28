@@ -17,7 +17,7 @@ const HomePage = () => {
             <div className="main-head">
                 <Header />
                 <HeroSection/>
-                <About/>
+                <About hasDot={true}/>
                 <VideoSection/>
                 <WhoAttending/>
                 <InviteSection/>
