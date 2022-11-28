@@ -275,3 +275,15 @@
     min-height: 180px;
   }
 }
+
+//\header-text
+.header-text{
+  margin-top: 60px;
+  p{
+    text-align: center;
+    font-size: 14px;
+    color: $black;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+}

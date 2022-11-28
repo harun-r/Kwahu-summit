@@ -20,7 +20,7 @@ const HomePage = () => {
                 <About hasDot={true}/>
                 <VideoSection/>
                 <WhoAttending/>
-                <InviteSection/>
+                <InviteSection hideButton={true}/>
                 <NotableSection/>
                 <KeyTopics/>
                 <NewSection/>

@@ -55,7 +55,7 @@ const Header = () => {
                                             Who is attending
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li><Link className="dropdown-item" to="/">Invited Heads of State</Link></li>
+                                            <li><Link className="dropdown-item" to="/speakers">Invited Heads of State</Link></li>
                                             <li><Link className="dropdown-item" to="/">Invited Personalities</Link></li>
                                         </ul>
                                     </li>

@@ -69,7 +69,7 @@ const invite_list = [
     },
 ]
 
-const InviteSection = () => {
+const InviteSection = (props) => {
     return (
         <div className="invite-section p-4">
             <SectionHeader title="Invited Heads of State"/>
@@ -90,7 +90,10 @@ const InviteSection = () => {
                     </div>
                     <div className="col-md-12">
                         <div className="cards-btn d-flex align-items-center justify-content-end mt-3">
-                            <button className="btn btn-invite btn-outline-success">See all Invited Heads of State </button>
+                            {props.hideButton
+                                ?<button className="btn btn-invite btn-outline-success">See all Invited Heads of State </button>
+                                : null
+                            }
                         </div>
                     </div>
                 </div>
