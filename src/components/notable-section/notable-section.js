@@ -69,7 +69,7 @@ const invite_list = [
     },
 ]
 
-const NotableSection = () => {
+const NotableSection = (props) => {
     return (
         <div className="notable-section p-4">
             <SectionHeader title="notable personalities"/>
@@ -90,7 +90,11 @@ const NotableSection = () => {
                     </div>
                     <div className="col-md-12">
                         <div className="cards-btn d-flex align-items-center justify-content-end mt-3">
-                            <button className="btn btn-invite btn-outline-success">See all Invited Personalities </button>
+                            {props.hideButton
+                                ? <button className="btn btn-invite btn-outline-success">See all Invited Personalities </button>
+                                : null
+
+                            }
                         </div>
                     </div>
                 </div>

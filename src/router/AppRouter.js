@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import HomePage from "../pages/home-page/HomePage";
 import AboutSummitPage from "../pages/about-summit/AboutSummitPage";
 import SpeakerPage from "../pages/speaker-page/SpeakerPage";
+import SpeakersPage2 from "../pages/speakers-page-2/SpeakersPage2";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -12,6 +13,7 @@ const AppRouter = () => {
                 <Route path="/" element={<HomePage/>} />
                 <Route path="/about-summit" element={<AboutSummitPage/>} />
                 <Route path="/speakers" element={<SpeakerPage/>} />
+                <Route path="/invited-personalities" element={<SpeakersPage2/>} />
             </Routes>
         </Fragment>
     );

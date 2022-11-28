@@ -21,7 +21,7 @@ const HomePage = () => {
                 <VideoSection/>
                 <WhoAttending/>
                 <InviteSection hideButton={true}/>
-                <NotableSection/>
+                <NotableSection hideButton={false}/>
                 <KeyTopics/>
                 <NewSection/>
                 <FAQSection/>
