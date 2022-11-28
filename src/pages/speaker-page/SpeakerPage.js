@@ -5,6 +5,7 @@ import headerBG from "../../assets/images/header-bg/speaker-bg.png";
 import PageShape from "../../components/page-shape/PageShape";
 import HeaderText from "../../components/header-text/HeaderText";
 import InviteSection from "../../components/invite-section/InviteSection";
+import Footer from "../../components/footer/Footer";
 
 const SpeakerPage = () => {
     return (
@@ -18,6 +19,7 @@ const SpeakerPage = () => {
             />
             <HeaderText/>
             <InviteSection hideButton={false}/>
+            <Footer/>
         </div>
     );
 };

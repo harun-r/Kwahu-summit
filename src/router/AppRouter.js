@@ -6,6 +6,7 @@ import HomePage from "../pages/home-page/HomePage";
 import AboutSummitPage from "../pages/about-summit/AboutSummitPage";
 import SpeakerPage from "../pages/speaker-page/SpeakerPage";
 import SpeakersPage2 from "../pages/speakers-page-2/SpeakersPage2";
+import SponsorsPage from "../pages/sponsors-page/SponsorsPage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -14,6 +15,7 @@ const AppRouter = () => {
                 <Route path="/about-summit" element={<AboutSummitPage/>} />
                 <Route path="/speakers" element={<SpeakerPage/>} />
                 <Route path="/invited-personalities" element={<SpeakersPage2/>} />
+                <Route path="/sponsors" element={<SponsorsPage/>} />
             </Routes>
         </Fragment>
     );
