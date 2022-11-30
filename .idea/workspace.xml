@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Speaker Page">
-      <change afterPath="$PROJECT_DIR$/src/components/card-title-text/CardTitleText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/host-page/HostPage.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Host Page">
+      <change afterPath="$PROJECT_DIR$/src/components/news-all/NewsAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/news-page/NewsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/host-page/HostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/host-page/HostPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <workItem from="1669564581288" duration="295000" />
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
-      <workItem from="1669814499567" duration="1694000" />
+      <workItem from="1669814499567" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669645043452</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Host Page">
+      <created>1669816247407</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669816247407</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +304,7 @@
     <MESSAGE value="footer" />
     <MESSAGE value="about page" />
     <MESSAGE value="Speaker Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speaker Page" />
+    <MESSAGE value="Host Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Host Page" />
   </component>
 </project>

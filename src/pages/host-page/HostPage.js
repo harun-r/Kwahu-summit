@@ -4,6 +4,7 @@ import HeroSectionSM from "../../components/hero-section-sm/HeroSectionSM";
 import HeroBG from '../../assets/images/header-bg/host-bg.png'
 import CardTitleText from "../../components/card-title-text/CardTitleText";
 import PageShape from "../../components/page-shape/PageShape";
+import Footer from "../../components/footer/Footer";
 
 const desc_list = [
     "The African Continental Free Trade Area (AfCFTA) is the world’s largest free trade area bringing together the 55 countries of the African Union (AU) and eight (8) Regional Economic Communities (RECs) to create a single market for the continent. The aim is to enable the free flow of goods and services across the continent and boost the trading position of Africa in the global market.",
@@ -33,6 +34,7 @@ const HostPage = () => {
                 title="AfCFTA contributions to the African Economy"
                 desc_list={desc_list_2}
             />
+            <Footer/>
         </div>
     );
 };

@@ -8,6 +8,7 @@ import SpeakerPage from "../pages/speaker-page/SpeakerPage";
 import SpeakersPage2 from "../pages/speakers-page-2/SpeakersPage2";
 import SponsorsPage from "../pages/sponsors-page/SponsorsPage";
 import HostPage from "../pages/host-page/HostPage";
+import NewsPage from "../pages/news-page/NewsPage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -18,6 +19,7 @@ const AppRouter = () => {
                 <Route path="/invited-personalities" element={<SpeakersPage2/>} />
                 <Route path="/sponsors" element={<SponsorsPage/>} />
                 <Route path="/the-host" element={<HostPage/>} />
+                <Route path="/news" element={<NewsPage/>} />
             </Routes>
         </Fragment>
     );

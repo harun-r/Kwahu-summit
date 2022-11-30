@@ -290,7 +290,7 @@
 
 //card-title-text
 .card-title-text{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 
   h3{
@@ -300,5 +300,10 @@
     font-family: $Oswald;
     text-transform: uppercase;
     margin-bottom: 38px;
+  }
+}
+.news-all-box{
+  .card-news{
+    margin-bottom: 48px;
   }
 }
