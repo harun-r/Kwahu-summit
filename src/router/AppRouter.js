@@ -9,6 +9,7 @@ import SpeakersPage2 from "../pages/speakers-page-2/SpeakersPage2";
 import SponsorsPage from "../pages/sponsors-page/SponsorsPage";
 import HostPage from "../pages/host-page/HostPage";
 import NewsPage from "../pages/news-page/NewsPage";
+import PlanningCommitteePage from "../pages/planning-committee-page/PlanningCommitteePage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -20,6 +21,7 @@ const AppRouter = () => {
                 <Route path="/sponsors" element={<SponsorsPage/>} />
                 <Route path="/the-host" element={<HostPage/>} />
                 <Route path="/news" element={<NewsPage/>} />
+                <Route path="/planning-committee" element={<PlanningCommitteePage/>} />
             </Routes>
         </Fragment>
     );

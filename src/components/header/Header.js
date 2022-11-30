@@ -46,7 +46,7 @@ const Header = () => {
                                             <li><Link className="dropdown-item" to="/the-host">The host</Link></li>
                                             <li><Link className="dropdown-item" to="/">Media partners</Link></li>
                                             <li><Link className="dropdown-item" to="/sponsors">Sponsors</Link></li>
-                                            <li><Link className="dropdown-item" to="/">Planning committee</Link></li>
+                                            <li><Link className="dropdown-item" to="/planning-committee">Planning committee</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">

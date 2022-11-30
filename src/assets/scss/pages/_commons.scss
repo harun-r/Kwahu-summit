@@ -307,3 +307,43 @@
     margin-bottom: 48px;
   }
 }
+
+//planning-committee-section
+.planning-committee-section{
+  padding-top: 60px !important;
+
+  .desc{
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  .card-pl-committee{
+    background-color: $white;
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 280px;
+    margin-bottom: 30px;
+    background-image: url("/assets/images/dot-shapes/card-dot.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .icon{
+      @include size(120px,120px);
+      img{
+        @include size(100%,100%);
+        object-fit: cover;
+      }
+    }
+    h3{
+      font-size: 22px;
+      line-height: 36px;
+      color: $blue;
+      font-weight: 600;
+      font-family: $Oswald;
+      margin-bottom: 0;
+      margin-top: 15px;
+      text-transform: uppercase;
+    }
+  }
+}
