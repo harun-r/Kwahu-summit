@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Speaker Page">
-      <change afterPath="$PROJECT_DIR$/src/pages/sponsors-page/SponsorsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-title-text/CardTitleText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/host-page/HostPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/speaker-page/SpeakerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/speaker-page/SpeakerPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/speakers-page-2/SpeakersPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/speakers-page-2/SpeakersPage2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,8 @@
       <workItem from="1669549608841" duration="13467000" />
       <workItem from="1669564581288" duration="295000" />
       <workItem from="1669601370887" duration="595000" />
-      <workItem from="1669638832481" duration="6059000" />
+      <workItem from="1669638832481" duration="6215000" />
+      <workItem from="1669814499567" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669644283224</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Speaker Page">
+      <created>1669645043452</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645043452</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
