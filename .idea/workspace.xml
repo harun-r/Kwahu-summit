@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Planing Page">
-      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewsDetailPage.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="news Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <workItem from="1669564581288" duration="295000" />
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
-      <workItem from="1669814499567" duration="6366000" />
+      <workItem from="1669814499567" duration="6600000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -282,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669819296810</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="news Page">
+      <created>1669821022601</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669821022601</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +323,7 @@
     <MESSAGE value="Host Page" />
     <MESSAGE value="News Page" />
     <MESSAGE value="Planing Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Planing Page" />
+    <MESSAGE value="news Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="news Page" />
   </component>
 </project>

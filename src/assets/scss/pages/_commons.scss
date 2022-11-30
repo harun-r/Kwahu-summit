@@ -356,6 +356,7 @@
     border-left: 8px solid $green;
     padding-left: 40px;
     margin-left: -120px;
+    margin-bottom: 20px;
 
     h4{
       font-size: 28px;
@@ -363,6 +364,11 @@
       color: $black;
       font-weight: 500;
       font-family: $Gilroy;
+    }
+  }
+  .desc-card{
+    p{
+      margin-bottom: 40px;
     }
   }
 }
