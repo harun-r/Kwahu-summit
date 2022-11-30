@@ -347,3 +347,22 @@
     }
   }
 }
+
+//news-detail-inner
+.news-detail-inner{
+  padding: 30px 150px;
+
+  .quote-card{
+    border-left: 8px solid $green;
+    padding-left: 40px;
+    margin-left: -120px;
+
+    h4{
+      font-size: 28px;
+      line-height: 50px;
+      color: $black;
+      font-weight: 500;
+      font-family: $Gilroy;
+    }
+  }
+}
