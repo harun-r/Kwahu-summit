@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="afct Page">
-      <change afterPath="$PROJECT_DIR$/src/components/agenda-section/AgendaSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/agenda-page/AgendaPage.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="agenda Page">
+      <change afterPath="$PROJECT_DIR$/src/pages/peduase-page/PeduasePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="2230000" />
+      <workItem from="1670036873601" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -305,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670037548400</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="agenda Page">
+      <created>1670039147413</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670039147413</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +347,7 @@
     <MESSAGE value="Planing Page" />
     <MESSAGE value="news Page" />
     <MESSAGE value="afct Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="afct Page" />
+    <MESSAGE value="agenda Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="agenda Page" />
   </component>
 </project>
