@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="news Page">
-      <change afterPath="$PROJECT_DIR$/src/pages/the-afcta/TheAfcta.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="afct Page">
+      <change afterPath="$PROJECT_DIR$/src/components/agenda-section/AgendaSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/agenda-page/AgendaPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
@@ -63,7 +65,7 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="632000" />
+      <workItem from="1670036873601" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -296,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669821190777</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="afct Page">
+      <created>1670037548399</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670037548400</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +343,7 @@
     <MESSAGE value="News Page" />
     <MESSAGE value="Planing Page" />
     <MESSAGE value="news Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="news Page" />
+    <MESSAGE value="afct Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="afct Page" />
   </component>
 </project>

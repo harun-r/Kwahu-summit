@@ -67,7 +67,7 @@ const Header = () => {
                                         <ul className="dropdown-menu">
                                             <li><Link className="dropdown-item" to="/news">News</Link></li>
                                             <li><Link className="dropdown-item" to="/the-afcfta">The AfCFTA</Link></li>
-                                            <li><Link className="dropdown-item" to="/">The AU Agenda 2063</Link></li>
+                                            <li><Link className="dropdown-item" to="/agenda">The AU Agenda 2063</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">

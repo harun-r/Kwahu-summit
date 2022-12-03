@@ -372,3 +372,44 @@
     }
   }
 }
+
+//text-title-section
+.text-title-section{
+  padding: 60px 70px;
+
+
+  .title{
+    text-align: center;
+    h3{
+      font-size: 40px;
+      font-weight: 500;
+      color: $blue;
+      font-family: $Oswald;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+  }
+  .desc-card{
+    padding-left: 120px;
+    p{
+      margin-bottom: 40px;
+      line-height: 36px;
+      a{
+        color: $green;
+        text-decoration: underline;
+      }
+    }
+  }
+  .quote-card{
+    margin-bottom: 40px;
+    border-left: 7px solid $green;
+    padding-left: 30px;
+    p{
+      font-weight: 600;
+      a{
+        color: $green;
+        text-decoration: underline;
+      }
+    }
+  }
+}
