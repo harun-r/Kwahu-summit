@@ -15,6 +15,7 @@ import TheAfcta from "../pages/the-afcta/TheAfcta";
 import AgendaPage from "../pages/agenda-page/AgendaPage";
 import PeduasePage from "../pages/peduase-page/PeduasePage";
 import AccraPage from "../pages/accra-page/AccraPage";
+import ProtocolsPage from "../pages/protocols-page/ProtocolsPage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -32,6 +33,7 @@ const AppRouter = () => {
                 <Route path="/agenda" element={<AgendaPage/>} />
                 <Route path="/peduase" element={<PeduasePage/>} />
                 <Route path="/accra" element={<AccraPage/>} />
+                <Route path="/protocols" element={<ProtocolsPage/>} />
             </Routes>
         </Fragment>
     );
