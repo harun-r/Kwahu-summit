@@ -44,7 +44,7 @@ const Header = () => {
                                         <ul className="dropdown-menu">
                                             <li><Link className="dropdown-item" to="/about-summit">About the Summit</Link></li>
                                             <li><Link className="dropdown-item" to="/the-host">The host</Link></li>
-                                            <li><Link className="dropdown-item" to="/">Media partners</Link></li>
+                                            <li><Link className="dropdown-item" to="/media-partners">Media partners</Link></li>
                                             <li><Link className="dropdown-item" to="/sponsors">Sponsors</Link></li>
                                             <li><Link className="dropdown-item" to="/planning-committee">Planning committee</Link></li>
                                         </ul>
@@ -76,13 +76,13 @@ const Header = () => {
                                             Event guide
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li><Link className="dropdown-item" to="/">Peduase</Link></li>
-                                            <li><Link className="dropdown-item" to="/">Accra</Link></li>
-                                            <li><Link className="dropdown-item" to="/">Protocols</Link></li>
+                                            <li><Link className="dropdown-item" to="/peduase">Peduase</Link></li>
+                                            <li><Link className="dropdown-item" to="/accra">Accra</Link></li>
+                                            <li><Link className="dropdown-item" to="/protocols">Protocols</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link active" aria-current="page" to="/">Help</Link>
+                                        <Link className="nav-link" aria-current="page" to="/help">Help</Link>
                                     </li>
                                 </ul>
                             </div>

@@ -13,6 +13,7 @@ import PlanningCommitteePage from "../pages/planning-committee-page/PlanningComm
 import NewsDetailPage from "../pages/news-detail-page/NewsDetailPage";
 import TheAfcta from "../pages/the-afcta/TheAfcta";
 import AgendaPage from "../pages/agenda-page/AgendaPage";
+import PeduasePage from "../pages/peduase-page/PeduasePage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -28,6 +29,7 @@ const AppRouter = () => {
                 <Route path="/news-detail" element={<NewsDetailPage/>} />
                 <Route path="/the-afcfta" element={<TheAfcta/>} />
                 <Route path="/agenda" element={<AgendaPage/>} />
+                <Route path="/peduase" element={<PeduasePage/>} />
             </Routes>
         </Fragment>
     );
