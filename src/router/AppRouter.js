@@ -11,6 +11,7 @@ import HostPage from "../pages/host-page/HostPage";
 import NewsPage from "../pages/news-page/NewsPage";
 import PlanningCommitteePage from "../pages/planning-committee-page/PlanningCommitteePage";
 import NewsDetailPage from "../pages/news-detail-page/NewsDetailPage";
+import TheAfcta from "../pages/the-afcta/TheAfcta";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -24,6 +25,7 @@ const AppRouter = () => {
                 <Route path="/news" element={<NewsPage/>} />
                 <Route path="/planning-committee" element={<PlanningCommitteePage/>} />
                 <Route path="/news-detail" element={<NewsDetailPage/>} />
+                <Route path="/the-afcfta" element={<TheAfcta/>} />
             </Routes>
         </Fragment>
     );
