@@ -415,7 +415,8 @@
 }
 
 //peduase-page
-.peduase-page{
+.peduase-page,
+.accra-page{
   background-color: $blue;
 
   .card-address{
@@ -447,6 +448,7 @@
           font-family: $Gilroy;
           color: #030303;
           text-transform: uppercase;
+          max-width: 150px;
         }
       }
       .card-desc{
