@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Gallery Page">
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="News Page">
+      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewDetailPage2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news-detail-page/NewsDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewsDetailPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="9946000" />
+      <workItem from="1670036873601" duration="10776000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -345,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670162204467</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="News Page">
+      <created>1670162661702</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162661702</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +386,6 @@
     <MESSAGE value="about page" />
     <MESSAGE value="Speaker Page" />
     <MESSAGE value="Host Page" />
-    <MESSAGE value="News Page" />
     <MESSAGE value="Planing Page" />
     <MESSAGE value="news Page" />
     <MESSAGE value="afct Page" />
@@ -388,6 +394,7 @@
     <MESSAGE value="accra Page" />
     <MESSAGE value="protocol Page" />
     <MESSAGE value="Gallery Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gallery Page" />
+    <MESSAGE value="News Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="News Page" />
   </component>
 </project>

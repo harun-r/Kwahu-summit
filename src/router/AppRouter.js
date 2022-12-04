@@ -11,11 +11,13 @@ import HostPage from "../pages/host-page/HostPage";
 import NewsPage from "../pages/news-page/NewsPage";
 import PlanningCommitteePage from "../pages/planning-committee-page/PlanningCommitteePage";
 import NewsDetailPage from "../pages/news-detail-page/NewsDetailPage";
+import NewDetailPage2 from "../pages/news-detail-page/NewDetailPage2";
 import TheAfcta from "../pages/the-afcta/TheAfcta";
 import AgendaPage from "../pages/agenda-page/AgendaPage";
 import PeduasePage from "../pages/peduase-page/PeduasePage";
 import AccraPage from "../pages/accra-page/AccraPage";
 import ProtocolsPage from "../pages/protocols-page/ProtocolsPage";
+
 const AppRouter = () => {
     return (
         <Fragment>
@@ -29,6 +31,10 @@ const AppRouter = () => {
                 <Route path="/news" element={<NewsPage/>} />
                 <Route path="/planning-committee" element={<PlanningCommitteePage/>} />
                 <Route path="/news-detail" element={<NewsDetailPage/>} />
+                <Route path="/news-detail-2" element={<NewDetailPage2/>} />
+                <Route path="/news-detail-3" element={<NewsDetailPage/>} />
+                <Route path="/news-detail-4" element={<NewsDetailPage/>} />
+                <Route path="/news-detail-5" element={<NewsDetailPage/>} />
                 <Route path="/the-afcfta" element={<TheAfcta/>} />
                 <Route path="/agenda" element={<AgendaPage/>} />
                 <Route path="/peduase" element={<PeduasePage/>} />
