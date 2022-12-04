@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="News Page">
-      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewDetailPage3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewDetailPage4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewDetailPage5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewDetailPage6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact-section/ContactSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map-section/MapSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/help-page/HelpPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +71,7 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="11951000" />
+      <workItem from="1670036873601" duration="14792000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -378,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670163683878</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="News Page">
+      <created>1670164646753</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1670164646753</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
