@@ -13,7 +13,7 @@ const NewsDetailPage = () => {
             <Header/>
             <HeroSectionSM
                 image={HeaderBG}
-                title="Benefits of African Economic Integration"
+                name="Benefits of African Economic Integration"
             />
             <NewsDetailSection/>
             <Footer/>

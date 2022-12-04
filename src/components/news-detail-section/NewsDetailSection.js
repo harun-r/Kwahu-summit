@@ -2,11 +2,11 @@ import React from 'react';
 
 const NewsDetailSection = () => {
     return (
-        <div className="news-detail-section p-4">
+        <div className="text-title-section">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="news-detail-inner">
+                        <div className="text-title-inner">
                             <div className="quote-card">
                                 <h4>With the right balance of audacity and pragmatism, regional integration could yield larger dividend</h4>
                             </div>

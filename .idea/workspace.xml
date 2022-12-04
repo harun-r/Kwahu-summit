@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="protocol Page">
-      <change afterPath="$PROJECT_DIR$/src/components/gallery-section/GallerySection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/gallery-page/GalleryPage.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="Gallery Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news-detail-section/NewsDetailSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/news-detail-page/NewsDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news-detail-page/NewsDetailPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="8943000" />
+      <workItem from="1670036873601" duration="9946000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670073608637</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Gallery Page">
+      <created>1670162204467</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162204467</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="Router init" />
     <MESSAGE value="Page Header" />
     <MESSAGE value="Home Hero" />
@@ -382,6 +387,7 @@
     <MESSAGE value="Peduase Page" />
     <MESSAGE value="accra Page" />
     <MESSAGE value="protocol Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="protocol Page" />
+    <MESSAGE value="Gallery Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gallery Page" />
   </component>
 </project>
