@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="News Page">
-      <change afterPath="$PROJECT_DIR$/src/components/contact-section/ContactSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/map-section/MapSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/help-page/HelpPage.js" afterDir="false" />
+    <list default="true" id="09230990-544f-489f-bfb7-e0432f98fe12" name="Changes" comment="help Page">
+      <change afterPath="$PROJECT_DIR$/src/components/gallery-section/GallerySection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/gallery-section/images.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_commons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery-section/GallerySection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery-page/GalleryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery-page/GalleryPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -45,6 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +74,8 @@
       <workItem from="1669601370887" duration="595000" />
       <workItem from="1669638832481" duration="6215000" />
       <workItem from="1669814499567" duration="6739000" />
-      <workItem from="1670036873601" duration="14792000" />
+      <workItem from="1670036873601" duration="15014000" />
+      <workItem from="1670243783705" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669130271670</created>
@@ -381,11 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1670164646753</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="help Page">
+      <created>1670167518528</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1670167518528</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/gallery-section/images.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -399,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Router init" />
     <MESSAGE value="Page Header" />
     <MESSAGE value="Home Hero" />
     <MESSAGE value="Header Design" />
@@ -424,6 +439,7 @@
     <MESSAGE value="protocol Page" />
     <MESSAGE value="Gallery Page" />
     <MESSAGE value="News Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="News Page" />
+    <MESSAGE value="help Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="help Page" />
   </component>
 </project>
