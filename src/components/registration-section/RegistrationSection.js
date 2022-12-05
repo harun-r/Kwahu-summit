@@ -24,37 +24,37 @@ const RegistrationSection = () => {
                     </div>
                     <div className="col-md-3">
                         <div className="regi-form">
-                            <input type="text" placeholder="FIRST NAME*"/>
+                            <input className="form-control" type="text" placeholder="FIRST NAME*"/>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="regi-form">
-                            <input type="text" placeholder="MIDDLE NAME*"/>
+                            <input className="form-control" type="text" placeholder="MIDDLE NAME*"/>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="regi-form">
-                            <input type="text" placeholder="SURNAME*"/>
+                            <input className="form-control" type="text" placeholder="SURNAME*"/>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="regi-form">
-                            <input type="text" placeholder="Gender*"/>
+                            <input className="form-control" type="text" placeholder="Gender*"/>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="regi-form">
-                            <input type="text" placeholder="Email*"/>
+                            <input className="form-control" type="text" placeholder="Email*"/>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="regi-form">
-                            <input type="text" placeholder="PHONE*"/>
+                            <input className="form-control" type="text" placeholder="PHONE*"/>
                         </div>
                     </div>
                     <div className="col-md-12">
                         <div className="regi-form">
-                            <input type="text" placeholder="Address*"/>
+                            <input className="form-control" type="text" placeholder="Address*"/>
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -81,7 +81,7 @@ const RegistrationSection = () => {
                         </div>
                     </div>
                     <div className="col-md-12">
-                        <div className="registration-head">
+                        <div className="registration-summit">
                             <h3>Summit Participation</h3>
                         </div>
                     </div>
@@ -90,10 +90,14 @@ const RegistrationSection = () => {
                             <label htmlFor="pc">Participant Categories**</label>
                             <select id="pc">
                                 <option value="1">select country</option>
+                                <option value="1">select country</option>
+                                <option value="1">select country</option>
+                                <option value="1">select country</option>
+                                <option value="1">select country</option>
                             </select>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                         <div className="regi-form">
                             <label htmlFor="STATE">I will attend:*</label>
                         </div>
@@ -106,7 +110,7 @@ const RegistrationSection = () => {
                             <label htmlFor="presidential">Presidential & Business Executives Dialogue – 28th January, 2023</label>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                         <div className="regi-form">
                             <button className="btn btn-reg">Submit</button>
                         </div>
