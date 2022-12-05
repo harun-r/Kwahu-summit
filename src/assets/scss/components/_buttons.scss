@@ -1,8 +1,12 @@
 .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 //  btn-flat
   &.btn-flat{
     border: none;
   }
+
 
 
 //  btn-invite

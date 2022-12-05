@@ -23,7 +23,7 @@ import AccraPage from "../pages/accra-page/AccraPage";
 import ProtocolsPage from "../pages/protocols-page/ProtocolsPage";
 import HelpPage from "../pages/help-page/HelpPage";
 import GalleryPage from "../pages/gallery-page/GalleryPage";
-
+import RegistrationPage from "../pages/registration-page/RegistrationPage";
 const AppRouter = () => {
     return (
         <Fragment>
@@ -49,6 +49,7 @@ const AppRouter = () => {
                 <Route path="/protocols" element={<ProtocolsPage/>} />
                 <Route path="/help" element={<HelpPage/>} />
                 <Route path="/gallery" element={<GalleryPage/>} />
+                <Route path="/registration" element={<RegistrationPage/>} />
             </Routes>
         </Fragment>
     );

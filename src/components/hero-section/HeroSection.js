@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import bgImg1 from '../../assets/images/hero-bg/bg-1.png'
 import bgImg2 from '../../assets/images/hero-bg/bg-2.png'
 import bgImg3 from '../../assets/images/hero-bg/bg-3.png'
+import {Link} from "react-router-dom";
 const HeroSection = () => {
     let slider_settings = {
         dots: false,
@@ -32,7 +33,7 @@ const HeroSection = () => {
                                 <h3 className="titleCap">Transforming Africa:</h3>
                                 <h3 className="title">Trough trade and impact invesment</h3>
                                 <p className="desc">Delivering prosperity through continental trade</p>
-                                <button className="btn btn-register btn-outline-light">Register</button>
+                                <Link to="/registration" className="btn btn-register btn-outline-light">Register</Link>
                                 <div className="rotate-text">
                                     <p>Who is attending ?</p>
                                 </div>
@@ -50,7 +51,7 @@ const HeroSection = () => {
                                 <h3 className="titleCap">Transforming Africa:</h3>
                                 <h3 className="title">Trough trade and impact invesment</h3>
                                 <p className="desc">Delivering prosperity through continental trade</p>
-                                <button className="btn btn-register btn-outline-light">Register</button>
+                                <Link to="/registration" className="btn btn-register btn-outline-light">Register</Link>
                                 <div className="rotate-text">
                                     <p>Who is attending ?</p>
                                 </div>
@@ -67,8 +68,8 @@ const HeroSection = () => {
                             <div className="content">
                                 <h3 className="titleCap">AfCTFA:</h3>
                                 <h3 className="title">From ambition to action </h3>
-                                <p className="desc">Energy security For industrialisation fgfg</p>
-                                <button className="btn btn-register btn-outline-light">Register</button>
+                                <p className="desc">Energy security For industrialisation</p>
+                                <Link to="/registration" className="btn btn-register btn-outline-light">Register</Link>
                                 <div className="rotate-text">
                                     <p>Who is attending ?</p>
                                 </div>
